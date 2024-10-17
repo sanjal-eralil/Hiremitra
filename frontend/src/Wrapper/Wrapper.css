@@ -1,0 +1,46 @@
+.form-wrapper {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add some padding */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the wrapper */
+}
+
+.text-section {
+    flex: 1; /* Allow this section to take up more space */
+    padding-right: 20px; /* Space between text and form */
+}
+
+.form-section {
+    flex: 1; /* Allow this section to take up more space */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden; /* Clip the iframe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+h1 {
+    font-size: 2rem; /* Stylish font size */
+    color: #333; /* Change color as needed */
+}
+
+p {
+    font-size: 1.2rem; /* Stylish paragraph font size */
+    color: #555; /* Change color as needed */
+}
+
+.form-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between the image and heading */
+}
+
+.form-section {
+    flex: 1; /* Allow this section to take up more space */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden; /* Clip the content if necessary */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    width: 800px; /* Set desired width for the form section */
+}
